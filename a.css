@@ -1,81 +1,116 @@
-@import url('https://fonts.googleapis.com/css?family=poppins:400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=poppins:400,500,600,700,800,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
-section{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+
+.content {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
 }
-section .content {
-    position: fixed;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
+
+.first_div {
+  position: fixed;
+  top: 0%;
+  height: 10vh;
+  width: 100%;
+  background: rgb(107, 112, 92);
 }
-section div.content div.first_div{
-    position: fixed;
-    top: 0%;
-    height: 9%;
-    width: 100%;
-    background: rgb(107, 112, 92);
+
+.second_div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  top: 10%;
+  height: 75vh;
+  width: 80vw;
+  margin: 15px auto;
+  background: royalblue;
 }
-section div.content div.second_div{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    border-radius: 15px;
-    top: 14%;
-    height: 72%;
-    width: 80%;
-    margin-left: 10%;
-    background: royalblue;
-    overflow: hidden;
+
+.one,
+.two {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 10px;
+  height: 65vh;
+  transition: 1s;
+  background: darkseagreen;
 }
-section div.content div.second_div div.one,section div.content div.second_div div.two{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    border-radius: 21px;
-    margin: 10px;
-    height: 90%;
-    transition: 1s;
-    background: darkseagreen
+
+.one,
+.a {
+  width: 30%;
+  height: 65vh;
 }
-section div.content div.second_div div.one{
-    width: 30%;
-    padding: 15px;
+
+.a {
+  margin: 10px 15px;
+  padding: 10px;
+  width: 90%;
+  height: 95%;
+  text-align: left;
+  /* overflow: scroll; */
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
-section div.content div.second_div div.one h2{
+
+.a::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------scroll show ------ */
+
+/* .a::-webkit-scrollbar {
+  width: 2px;
+}
+
+.a::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.a::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+.a::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+} */
+
+/* ------- scroll show --------- */
+
+/* .one>h2{
     z-index: 3;
     font-size: 1.2em;
     color: white;
+} */
+
+.two,
+.b {
+  width: 70%;
+  padding: 15px auto;
 }
-section div.content div.second_div div.two{
-    width: 65%;
-}
-section div.content div.main_body div.two h2{
+
+/* .two>h2{
     z-index: 3;
-}
-section div.content div.last_div{
-    position: fixed;
-    bottom: 0%;
-    height: 9%;
-    width: 100%;
-    background: rgb(107, 112, 92);
+} */
+
+.last_div {
+  position: fixed;
+  bottom: 0%;
+  height: 10vh;
+  width: 100%;
+  background: rgb(107, 112, 92);
 }
