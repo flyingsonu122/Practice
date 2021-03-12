@@ -58,7 +58,8 @@
   padding: 10px;
   width: 90%;
   height: 95%;
-  text-align: left;
+  /* text-align: left; */
+  text-align: justify;
   /* overflow: scroll; */
   overflow: auto;
   -ms-overflow-style: none; 
