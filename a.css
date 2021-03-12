@@ -63,7 +63,7 @@ section div.content div.second_div div.one{
 }
 section div.content div.second_div div.one h2{
     z-index: 3;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: white;
 }
 section div.content div.second_div div.two{
