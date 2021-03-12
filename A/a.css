@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.content {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+.first_div {
+  position: fixed;
+  top: 0%;
+  height: 10vh;
+  width: 100%;
+  background: rgb(107, 112, 92);
+}
+
+.second_div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  top: 10%;
+  height: 75vh;
+  width: 80vw;
+  margin: 15px auto;
+  background: royalblue;
+}
+
+.one,
+.two {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 10px;
+  height: 65vh;
+  transition: 1s;
+  background: darkseagreen;
+}
+
+.one,
+.a {
+  width: 30%;
+  height: 65vh;
+}
+
+.a {
+  margin: 10px 15px;
+  padding: 10px;
+  width: 90%;
+  height: 95%;
+  /* text-align: left; */
+  text-align: justify;
+  /* overflow: scroll; */
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.a::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------scroll show ------ */
+
+/* .a::-webkit-scrollbar {
+  width: 2px;
+}
+
+.a::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.a::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+.a::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+} */
+
+/* ------- scroll show --------- */
+
+/* .one>h2{
+    z-index: 3;
+    font-size: 1.2em;
+    color: white;
+} */
+
+.two,
+.b {
+  width: 70%;
+  padding: 15px auto;
+}
+
+/* .two>h2{
+    z-index: 3;
+} */
+
+.last_div {
+  position: fixed;
+  bottom: 0%;
+  height: 10vh;
+  width: 100%;
+  background: rgb(107, 112, 92);
+}
