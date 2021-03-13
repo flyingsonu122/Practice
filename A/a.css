@@ -62,17 +62,17 @@
   text-align: justify;
   /* overflow: scroll; */
   overflow: auto;
-  /* -ms-overflow-style: none; 
-  scrollbar-width: none; */
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
 }
 
-/* .a::-webkit-scrollbar {
+.a::-webkit-scrollbar {
   display: none;
-} */
+}
 
 /* ---------scroll show ------ */
 
-.a::-webkit-scrollbar {
+/* .a::-webkit-scrollbar {
   width: 2px;
 }
 
@@ -88,15 +88,15 @@
 
 .a::-webkit-scrollbar-thumb:hover {
   background: #b30000;
-}
+} */
 
 /* ------- scroll show --------- */
 
-.one>h2{
+/* .one>h2{
     z-index: 3;
     font-size: 1.2em;
     color: white;
-}
+} */
 
 .two,
 .b {
@@ -104,9 +104,9 @@
   padding: 15px auto;
 }
 
-.two>h2{
+/* .two>h2{
     z-index: 3;
-}
+} */
 
 .last_div {
   position: fixed;
