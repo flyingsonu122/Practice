@@ -1,3 +1,3 @@
 # Practice
 
-[Demo of A](https://flyingsonu122.github.io/Practice/A/)
+[Demo of A](https://Nihal-Priyadarshi.github.io/Practice/A/)
