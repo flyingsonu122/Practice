@@ -62,17 +62,17 @@
   text-align: justify;
   /* overflow: scroll; */
   overflow: auto;
-  -ms-overflow-style: none; 
-  scrollbar-width: none;
+  /*-ms-overflow-style: none; 
+  scrollbar-width: none;*/
 }
-
+/*
 .a::-webkit-scrollbar {
   display: none;
 }
-
+*/
 /* ---------scroll show ------ */
 
-/* .a::-webkit-scrollbar {
+.a::-webkit-scrollbar {
   width: 2px;
 }
 
@@ -88,7 +88,7 @@
 
 .a::-webkit-scrollbar-thumb:hover {
   background: #b30000;
-} */
+} 
 
 /* ------- scroll show --------- */
 
