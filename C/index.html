@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .navbar {
+                position: fixed;
+                top: 0%;
+                width: 100%;
+                height: 9%;
+                background-color: yellowgreen;
+                display: flex;
+            }
+
+            .one {
+                background-color: tomato;
+                width: 30%;
+                font-size: 2em;
+                color: white;
+            }
+
+
+            .hide_show {
+                box-sizing: border-box;
+                height: 50%;
+                width: 100%;
+                background-color: blueviolet;
+                position: fixed;
+                bottom: 0%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <button class="one" id="show">Show</button>
+
+
+        </div>
+        <div class="hide_show">
+            <button class="one" id="hide">Hide</button>
+        </div>
+
+        <script>
+            const show = document.getElementById('show');
+            const hide = document.getElementById('hide');
+            const hide_show = document.querySelector('.hide_show');
+            var first_click = true;
+            nochange();
+            show.onclick = function () {
+                change();
+            }
+
+            hide.onclick = function () {
+                nochange();
+            }
+
+            function change() {
+                hide_show.style.display = '';
+            }
+            function nochange() {
+                hide_show.style.display = 'none';
+
+            }
+
+        </script>
+    </body>
+
+</html>
