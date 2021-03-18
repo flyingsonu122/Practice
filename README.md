@@ -11,3 +11,15 @@
 
 [Demo of C](https://Nihal-Priyadarshi.github.io/Practice/C/)
 
+
+
+<br>
+
+[Demo of D](#)
+
+
+
+<br>
+
+[Demo of E](https://Nihal-Priyadarshi.github.io/Practice/E/)
+

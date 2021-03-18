@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    /* z-index: 2; */
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    top: 0%;
+    height: 9%;
+    width: 100%;
+    background: blue;
+}
+section div.content div.navbar > .container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width: 98%;
+    height: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: burlywood;
+}
+
+.container>button{
+    position: relative;
+    height: 80%;
+    margin: auto;
+    padding: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6b8eff;
+}
+
+.aaa{
+    width: 9%;
+    margin-left: 10px !important;
+}
+.bbb{
+    width: 6%;
+    margin-right: 10px !important;
+}
+
+.hide_showab{
+    box-sizing: border-box;
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0%;
+}
+
+.one {
+    background-color: tomato;
+    width: 30%;
+    font-size: 2em;
+    color: white;
+}
+
+
+
+
+.hide_show{
+    box-sizing: border-box;
+    height: 40%;
+    width: 50%;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+}
+
