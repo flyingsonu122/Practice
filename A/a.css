@@ -37,7 +37,6 @@
 .one,
 .two {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   border-radius: 25px;
@@ -58,10 +57,10 @@
   padding: 10px;
   width: 90%;
   height: 95%;
-  /* text-align: left; */
   text-align: justify;
-  /* overflow: scroll; */
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* overflow: auto; */
   /*-ms-overflow-style: none; 
   scrollbar-width: none;*/
 }
@@ -92,11 +91,6 @@
 
 /* ------- scroll show --------- */
 
-/* .one>h2{
-    z-index: 3;
-    font-size: 1.2em;
-    color: white;
-} */
 
 .two,
 .b {
@@ -104,9 +98,6 @@
   padding: 15px auto;
 }
 
-/* .two>h2{
-    z-index: 3;
-} */
 
 .last_div {
   position: fixed;
